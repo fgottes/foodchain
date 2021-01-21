@@ -1,7 +1,7 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 //$body-bg: #000;
-//$body-color: white;
+$body-color: white;
 $primary: rgba(230, 52, 7, 0.863);
 $font-family-base: monospace;
 
@@ -15,4 +15,11 @@ body {
 
 .primary {
   color: rgba(252, 59, 0, 0.932);
+}
+
+.card-title {
+  color: black;
+}
+.card-text {
+  color: black;
 }
