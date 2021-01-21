@@ -1,9 +1,9 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
+//$body-bg: #000;
 $body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+$primary: rgba(230, 52, 7, 0.863);
+$font-family-base: monospace;
 
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
@@ -11,4 +11,18 @@ $font-family-base: Arial;
 // Add you custom CSS
 body {
   padding: 20px;
+}
+
+.primary {
+  color: rgba(252, 59, 0, 0.932);
+}
+
+.card-title {
+  color: black;
+}
+.card-text {
+  color: black;
+}
+.container {
+  max-height: 100;
 }
